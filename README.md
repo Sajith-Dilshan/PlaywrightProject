@@ -93,3 +93,7 @@ The suite `tests/specs/search.spec.ts` validates the "Related Products" function
 - **Lint Code:** `npm run lint`
 - **Fix Lint Issues:** `npm run lint:fix`
 - **Format Code:** `npm run format`
+
+### Important Notice
+Parallel execution causes multiple requests from the same IP to the same eBay endpoints, triggering eBay’s anti-bot CAPTCHA.
+To prevent environment-related false failures, these tests are executed sequentially.  
