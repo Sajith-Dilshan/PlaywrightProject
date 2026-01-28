@@ -81,8 +81,7 @@ export default defineConfig({
     actionTimeout: 10000,
 
     // Headless mode
-    // headless: process.env.HEADLESS === 'true',
-    headless: false,
+    headless: process.env.HEADLESS === 'true',
 
     // Slow down actions (useful for debugging)
     launchOptions: {
