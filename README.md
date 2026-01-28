@@ -41,7 +41,6 @@ From the project directory run:
 
 ## Structure
 
-- `.github` # CI/CD workflow configurations
 - `tests` 
   - `fixtures` # Predefined fixture sets for dependency injection
   - `pages` # Page Object Models (POM) representing application pages
