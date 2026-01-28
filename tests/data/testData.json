@@ -1,0 +1,52 @@
+{
+  "searchTerms": {
+    "valid": ["wallet", "clothes for men", "t shirt", "bag"],
+    "invalid": ["", "   ", "!@#$%^&*()", "xyzabc123nonexistent"]
+  },
+  "categories": {
+    "electronics": "Electronics",
+    "fashion": "Fashion",
+    "home": "Home & Garden",
+    "sports": "Sporting Goods",
+    "toys": "Toys & Hobbies"
+  },
+  "priceRanges": {
+    "wallet": {
+      "main": 50,
+      "min": 5,
+      "max": 60,
+      "variance": 20
+    },
+    "phone": {
+      "main": 500,
+      "min": 400,
+      "max": 600,
+      "variance": 20
+    },
+    "laptop": {
+      "main": 1000,
+      "min": 800,
+      "max": 1200,
+      "variance": 20
+    }
+  },
+  "relatedProducts": {
+    "maxCount": 6,
+    "minCount": 1
+  },
+  "testUsers": {
+    "standard": {
+      "email": "testuser@example.com",
+      "password": "TestPassword123!"
+    },
+    "premium": {
+      "email": "premiumuser@example.com",
+      "password": "PremiumPass123!"
+    }
+  },
+  "timeouts": {
+    "short": 5000,
+    "medium": 10000,
+    "long": 30000
+  }
+}
